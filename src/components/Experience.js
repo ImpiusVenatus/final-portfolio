@@ -49,8 +49,8 @@ const Experience = () => {
 
             <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                 <Details 
-                    position="Software Engineer"
-                    company="Google" 
+                    position="Placeholder"
+                    company="ABC Company" 
                     companyLink="www.google.com"
                     time="2022-Present"
                     address="Mountain View, CA"
@@ -60,8 +60,8 @@ const Experience = () => {
                 />
 
                 <Details 
-                    position="Intern"
-                    company="Facebook" 
+                    position="Placeholder"
+                    company="ABC Company"  
                     companyLink="www.facebook.com"
                     time="Summer 2021"
                     address="Menlo Park, CA"
@@ -71,8 +71,8 @@ const Experience = () => {
                 />
 
                 <Details 
-                    position="Software Developer"
-                    company="Amazon" 
+                    position="Placeholder"
+                    company="ABC Company" 
                     companyLink="www.amazon.com"
                     time="2020-2021"
                     address="Seattle, WA."
@@ -81,8 +81,8 @@ const Experience = () => {
                 />
 
                 <Details 
-                    position="Software Developer Intern"
-                    company="Microsoft" 
+                    position="Placeholder"
+                    company="ABC Company" 
                     companyLink="www.microsoft.com"
                     time="Summer 2019"
                     address="Redmond, WA."
@@ -92,8 +92,8 @@ const Experience = () => {
                 />
 
                 <Details 
-                    position="Teaching Assistant"
-                    company="MIT" 
+                    position="Placeholder"
+                    company="ABC Company" 
                     companyLink="www.mit.com"
                     time="Fall 2018"
                     address="Massachusetts Ave, Cambridge, MA."

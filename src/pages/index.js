@@ -1,15 +1,16 @@
 import Head from 'next/head';
 import Layout from '@/components/Layout';
 import Image from 'next/image';
-import ProfilePic from "../../public/images/profile/developer-pic-1.png"
+import ProfilePic from "../../public/images/profile/my-pic.jpg"
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
-import { LinkArrow } from '@/components/icons';
+import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
 import TransitionEffect from '@/components/TransitionEffect';
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -20,15 +21,15 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
-            <div className="w-1/2 md:w-full">
-              <Image src={ProfilePic} alt="Sadman Hossain" className="w-full h-auto lg:hidden md:inline-block md:w-full" priority
+            <div className="w-1/2 md:w-full px-8">
+              <Image src={ProfilePic} alt="Sadman Hossain" className="mx-auto rounded-full w-[600px] h-auto lg:hidden md:inline-block md:w-full shadow-[0_0_0_.5rem_rgba(0,0,0,0.1)] dark:shadow-[0_0_0_.5rem_rgba(255,255,255,0.1)] animate-profileAnimation" priority
                 sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw,
                 50vw"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-              <AnimatedText  text="Turning Vision Into Reality With Code And Design." className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"/>
+              <AnimatedText  text="Turning Vision Into Reality With Code And Design." className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl md:pt-8 sm:!text-3xl md:pt-8"/>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
                 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
               </p>

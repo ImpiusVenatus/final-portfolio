@@ -72,14 +72,14 @@ const Contact = () => {
 
                             <div className="relative mb-8 h-20">
                                 <label className="absolute -top-4 left-5 text-md p-1 bg-light dark:bg-dark z-10">Mail</label>
-                                <input type="email" name="email" className="absolute top-0 left-0 w-full h-full border-2 border-black/30 bg-transparent text-dark/75 outline-none rounded-lg p-6" placeholder="Insert Your Email" />
+                                <input type="email" name="email" className="absolute top-0 left-0 w-full h-full border-2 border-black/30 dark:border-light/30 bg-transparent text-dark/75 outline-none rounded-lg p-6" placeholder="Insert Your Email" />
                             </div>
 
                             <div className="relative mb-8 h-[11rem]">
                                 <label className="absolute -top-4 left-5 text-md p-1 bg-light dark:bg-dark z-10">Project</label>
-                                <textarea name="project" className="absolute top-0 left-0 w-full h-full border-2 border-black/30 bg-transparent text-dark/75 outline-none rounded-lg p-6 resize-none" cols="30" rows="10" placeholder="Write your project" />
+                                <textarea name="project" className="absolute top-0 left-0 w-full h-full border-2 border-black/30 dark:border-light/30 bg-transparent text-dark/75 outline-none rounded-lg p-6 resize-none" cols="30" rows="10" placeholder="Write your project" />
                             </div>
-                            <button className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark">
+                            <button className="flex items-center bg-dark dark:bg-light text-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light dark:hover:bg-dark hover:text-dark dark:hover:text-light border-2 border-solid border-transparent hover:border-dark dark:hover:border-light">
                                 Send Message
                                 <i className="bx bx-paper-plane text-2xl pl-1"></i>
                             </button>

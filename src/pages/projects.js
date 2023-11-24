@@ -4,8 +4,14 @@ import Layout from '@/components/Layout';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import Image from 'next/image';
-import { GithubIcon } from '@/components/icons';
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
+import { GithubIcon } from '@/components/Icons';
+import project1 from '../../public/images/projects/react-portfolio.jpg';
+import project2 from '../../public/images/projects/react-landing-page.jpg';
+import project3 from '../../public/images/projects/constructed.jpg';
+import project4 from '../../public/images/projects/videograph.jpg';
+import project5 from '../../public/images/projects/sneaky.jpg';
+import project6 from '../../public/images/projects/webmaster.jpg';
+import project7 from '../../public/images/projects/project-travelo.jpg';
 import TransitionEffect from '@/components/TransitionEffect';
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -79,63 +85,78 @@ const projects = () => {
                 <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                     <div className="col-span-12">
                         <FeaturedProject 
-                            title="Crypto Screener Application"
+                            title="React Portfolio"
                             img={project1}
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                            link="/"
-                            github="/"
-                            type="Featured Project"
+                            summary="A feature-rich portfolio website made using
+                            ReactJS and Tailwind CSS"
+                            link="https://my-portfolio-puce-two-80.vercel.app"
+                            github="https://github.com/ImpiusVenatus/my-portfolio"
+                            type="Featured React Project"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <Project 
-                            title="Crypto Screener Application"
-                            img={project1}
-                            link="/"
-                            github="/"
-                            type="Project"
+                            title="Landing Page"
+                            img={project2}
+                            link="https://react-landing-page-rouge.vercel.app/"
+                            github="https://github.com/ImpiusVenatus/react-landing-page"
+                            type="React Project"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <Project 
-                            title="Crypto Screener Application"
-                            img={project1}
-                            link="/"
-                            github="/"
-                            type="Project"
+                            title="Construction Page"
+                            img={project3}
+                            link="https://impiusvenatus.github.io/constructed/"
+                            github="https://github.com/ImpiusVenatus/constructed"
+                            type="HTML CSS Project"
                         />
                     </div>
 
                     <div className="col-span-12">
                         <FeaturedProject 
-                            title="Crypto Screener Application"
-                            img={project1}
-                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                            link="/"
+                            title="Videography Website"
+                            img={project4}
+                            summary="A feature-rich videographer's portfolio made using HTML CSS and Bootstrap"
+                            link="https://impiusvenatus.github.io/videograph/"
                             github="/"
-                            type="Featured Project"
+                            type="Featured HTML CSS Project"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <Project 
-                            title="Crypto Screener Application"
-                            img={project1}
-                            link="/"
-                            github="/"
-                            type="Project"
+                            title="Restaurant Website"
+                            img={project5}
+                            link="https://impiusvenatus.github.io/sneaky/"
+                            github="https://github.com/ImpiusVenatus/sneaky"
+                            type="HTML CSS Project"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <Project 
-                            title="Crypto Screener Application"
-                            img={project1}
-                            link="/"
-                            github="/"
-                            type="Project"
+                            title="Portfolio Website"
+                            img={project6}
+                            link="https://impiusvenatus.github.io/webMaster/"
+                            github="https://github.com/ImpiusVenatus/webMaster"
+                            type="HTML CSS Project"
+                        /> 
+                    </div>
+                    <div className="col-span-6 sm:col-span-12">
+                        <Project 
+                            title="Travelling Website"
+                            img={project7}
+                            link="https://impiusvenatus.github.io/Project-Travelo/"
+                            github="https://github.com/ImpiusVenatus/Project-Travelo"
+                            type="HTML CSS Project"
+                        /> 
+                    </div>
+                    <div className="col-span-6 sm:col-span-12">
+                        <Project 
+                            title="Portfolio Website"
+                            img={project6}
+                            link="https://impiusvenatus.github.io/webMaster/"
+                            github="https://github.com/ImpiusVenatus/webMaster"
+                            type="HTML CSS Project"
                         /> 
                     </div>
                 </div>

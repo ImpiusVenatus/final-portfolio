@@ -18,8 +18,16 @@ module.exports = {
         primary: "#B63E96",
         primaryDark: "#58E6D9",
       },
+      keyframes: {
+        profile_animate: {
+          '0%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' },
+          '50%': { borderRadius: '30% 60% 70% 40%/50% 60% 30% 60%' },
+          '100%': { borderRadius: '60% 40% 30% 70%/60% 30% 70% 40%' },
+        },
+      },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
+        'profileAnimation': 'profile_animate 8s ease-in-out infinite 1s',
       },
       backgroundImage: {
         circularLight:
